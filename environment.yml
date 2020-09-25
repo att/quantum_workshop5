@@ -1,0 +1,13 @@
+name: Qiskitenv
+dependencies:
+- pip>=20.2.2
+- python>=3.6
+- matplotlib<3.3
+- notebook
+- ipywidgets
+- pip:
+  - qiskit
+  - git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
+  - numexpr
+  - pylatexenc
+  - seaborn
